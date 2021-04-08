@@ -2,4 +2,4 @@
 *This is a repositorie about Css to learn more about this language :cowboy_hat_face:*
 
 ### Challenge 1
-![Css challenge 1] (/home/susanar/Documentos/Programacion_2021_1/css_challenges/img_challenge1.png)
+![image](https://user-images.githubusercontent.com/42523734/114058174-d8656600-9858-11eb-9c5d-122c588d646b.png)
