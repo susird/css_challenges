@@ -19,8 +19,7 @@
 
 .union-left {
   background-color: var(--first-color);
-  border-bottom-left-radius: 48px 48px;
-  border-bottom-right-radius: 48px 48px;
+  border-radius: 0 0 48px 48px;
   height: 105px;
   width: 100px;
   align-self: flex-end;
@@ -28,16 +27,14 @@
 
 .union-middle {
   background: var(--first-color);
-  border-top-left-radius: 48px 48px;
-  border-top-right-radius: 48px 48px;
+  border-radius: 48px 48px 0 0;
   height: 105px;
   width: 100px;
 }
 
 .union-right {
   background: var(--first-color);
-  border-bottom-left-radius: 48px 48px;
-  border-bottom-right-radius: 48px 48px;
+  border-radius: 0 0 48px 48px;
   height: 105px;
   width: 100px;
   align-self: flex-end;
