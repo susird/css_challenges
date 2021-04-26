@@ -10,19 +10,19 @@
 
 .container{
   background: #62306D;
-  height: 300px;
   display: flex;
   flex-direction: row;
-  width: 400px;
+  height: 300px;
   padding: 45px 50px;
+  width: 400px;
 }
 
 .union-left {
+  align-self: flex-end;
   background-color: var(--first-color);
   border-radius: 0 0 48px 48px;
   height: 105px;
   width: 100px;
-  align-self: flex-end;
 }
 
 .union-middle {
@@ -33,9 +33,9 @@
 }
 
 .union-right {
+  align-self: flex-end;
   background: var(--first-color);
   border-radius: 0 0 48px 48px;
   height: 105px;
   width: 100px;
-  align-self: flex-end;
 }
