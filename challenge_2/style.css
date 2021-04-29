@@ -31,7 +31,7 @@
 
 .smallCircle {
   background: #EEB850;
-  border-radius: 100%;
+  border-radius: 50%;
   height: 50px;
   width: 50px;
 }
