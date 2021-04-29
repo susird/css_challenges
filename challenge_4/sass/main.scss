@@ -38,28 +38,31 @@ $secondary-color: #0B2429;
   }
 }
 
-.big-circle {
+.circle {
+  display: flex;
   align-items: center;
+
+ &-big {
   background: $primary-color;
   border-radius: 50%;
-  display: flex;
   height: 200px;
   padding: 12px;
   position: absolute;
   width: 200px;
 }
 
-.middle-circle {
+ &-middle {
   background-color: $secondary-color;
-  border-radius: 53%;
+  border-radius: 50%;
   height: 178px;
   padding: 18px;
   width: 213px;
 }
 
-.smallest-circle {
+ &-smallest {
   border: 46px solid #F3AC3C;
   border-radius: 50%;
   height: 140px;
-  width: 140px;
+  width: 100%;
+}
 }

@@ -28,25 +28,24 @@
     height: 55px;
     margin-right: 167px; }
 
-.big-circle {
-  align-items: center;
-  background: #998235;
-  border-radius: 50%;
+.circle {
   display: flex;
-  height: 200px;
-  padding: 12px;
-  position: absolute;
-  width: 200px; }
-
-.middle-circle {
-  background-color: #0B2429;
-  border-radius: 53%;
-  height: 178px;
-  padding: 18px;
-  width: 213px; }
-
-.smallest-circle {
-  border: 46px solid #F3AC3C;
-  border-radius: 50%;
-  height: 140px;
-  width: 140px; }
+  align-items: center; }
+  .circle-big {
+    background: #998235;
+    border-radius: 50%;
+    height: 200px;
+    padding: 12px;
+    position: absolute;
+    width: 200px; }
+  .circle-middle {
+    background-color: #0B2429;
+    border-radius: 50%;
+    height: 178px;
+    padding: 18px;
+    width: 213px; }
+  .circle-smallest {
+    border: 46px solid #F3AC3C;
+    border-radius: 50%;
+    height: 140px;
+    width: 100%; }
