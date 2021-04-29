@@ -8,53 +8,58 @@ $primary-color: #998235;
 $secondary-color: #0B2429;
 
 .container {
-  background: $secondary-color;
-  height: 300px;
-  width: 400px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background: $secondary-color;
+  display: flex;
+  height: 300px;
+  justify-content: center;
   padding: 50px 60px;
+  width: 400px;
 }
 
-.left-triangle {
-  height: 55px;
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  border-left: 48px solid $primary-color;
-}
+.triangle {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 
-.right-triangle {
-  height: 55px;
-    border-top: 50px solid transparent;
+  &-left {
     border-bottom: 50px solid transparent;
-    border-right: 48px solid #998235;
-    margin-right: -14px;
+    border-left: 48px solid $primary-color;
+    border-top: 50px solid transparent;
+    height: 55px;
+  }
+
+  &-right {
+    border-bottom: 50px solid transparent;
+    border-right: 48px solid $primary-color;
+    border-top: 50px solid transparent;
+    height: 55px;
+    margin-right: 167px;
+  }
 }
 
 .big-circle {
-  background: #998235;
-  border-radius: 50%;
-  height: 200px;
-  margin-right: -14px;
-  display: flex;
-  width: 200px;
   align-items: center;
+  background: $primary-color;
+  border-radius: 50%;
+  display: flex;
+  height: 200px;
   padding: 12px;
+  position: absolute;
+  width: 200px;
 }
 
 .middle-circle {
-  width: 213px;
-  height: 178px;
-  background-color: #0B2429;
+  background-color: $secondary-color;
   border-radius: 53%;
+  height: 178px;
   padding: 18px;
-  z-index: 1;
+  width: 213px;
 }
 
 .smallest-circle {
   border: 46px solid #F3AC3C;
   border-radius: 50%;
-  width: 140px;
   height: 140px;
+  width: 140px;
 }
