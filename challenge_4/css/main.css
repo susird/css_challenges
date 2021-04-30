@@ -10,6 +10,7 @@
   height: 300px;
   justify-content: center;
   padding: 50px 60px;
+  position: relative;
   width: 400px; }
 
 .triangle {
@@ -28,24 +29,20 @@
     height: 55px;
     margin-right: 167px; }
 
-.circle {
+.circle-big {
+  align-items: center;
+  border: 10px solid #998235;
+  border-radius: 50%;
   display: flex;
-  align-items: center; }
-  .circle-big {
-    background: #998235;
-    border-radius: 50%;
-    height: 200px;
-    padding: 12px;
-    position: absolute;
-    width: 200px; }
-  .circle-middle {
-    background-color: #0B2429;
-    border-radius: 50%;
-    height: 178px;
-    padding: 18px;
-    width: 213px; }
-  .circle-smallest {
-    border: 46px solid #F3AC3C;
-    border-radius: 50%;
-    height: 140px;
-    width: 100%; }
+  height: 200px;
+  justify-content: center;
+  padding: 12px;
+  position: absolute;
+  width: 200px; }
+
+.circle-smallest {
+  border: 46px solid #F3AC3C;
+  border-radius: 50%;
+  box-shadow: 0 0 0 20px #0B2429;
+  height: 140px;
+  width: 140px; }
