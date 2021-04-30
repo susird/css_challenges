@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #6592CF;
+  display: flex;
+  height: 300px;
+  padding: 75px 50px;
+  width: 400px;
+}
+
+.boxInside {
+  align-items: center;
+  background: #243D83;
+  display: flex;
+  height: 150px;
+  padding: 25px;
+  width: 300px;
+}
+
+.bigCircle {
+  border: 50px solid #6592CF;
+  border-radius: 50%;
+  height: 250px;
+  padding: 50px;
+  width: 250px;
+}
+
+.smallCircle {
+  background: #EEB850;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}

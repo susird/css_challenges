@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --first-color: #F7EC7D;
+  --second-color: #62306D;
+}
+
+.container{
+  background: var(--second-color);
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  padding: 45px 50px;
+  width: 400px;
+}
+
+.union-left {
+  align-self: flex-end;
+  background-color: var(--first-color);
+  border-radius: 0 0 48px 48px;
+  height: 105px;
+  width: 100px;
+}
+
+.union-middle {
+  background: var(--first-color);
+  border-radius: 48px 48px 0 0;
+  height: 105px;
+  width: 100px;
+}
+
+.union-right {
+  align-self: flex-end;
+  background: var(--first-color);
+  border-radius: 0 0 48px 48px;
+  height: 105px;
+  width: 100px;
+}
