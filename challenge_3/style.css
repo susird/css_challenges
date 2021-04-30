@@ -6,10 +6,11 @@
 
 :root {
   --first-color: #F7EC7D;
+  --second-color: #62306D;
 }
 
 .container{
-  background: #62306D;
+  background: var(--second-color);
   display: flex;
   flex-direction: row;
   height: 300px;
