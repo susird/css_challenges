@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  background: #340866;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+}
+
+.ice-cream {
+  background: #f8efb8;
+  height: 300px;
+  width: 200px;
+  border-radius: 100px 100px 41px 41px;
+}
+
+.ice-cream-stick {
+  height: 100px;
+  width: 62px;
+  background: #fd124d;
+  border-radius: 0 0 20px 20px;
+}
