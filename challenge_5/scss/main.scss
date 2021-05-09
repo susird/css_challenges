@@ -1,3 +1,5 @@
+@import "../scss/variables";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +8,7 @@
 
 .container {
   align-items: center;
-  background: #340866;
+  background: $main-color;
   display: flex;
   flex-direction: column;
   height: 600px;
@@ -16,21 +18,21 @@
 }
 
 .ice-cream {
-  background: #f8efb8;
+  background: $secondary-color;
   border-radius: 100px 100px 41px 41px;
   height: 300px;
   width: 200px;
 }
 
 .ice-cream-stick {
-  background: #FF6A59;
+  background: $tertiary-light-color;
   border-radius: 0 0 20px 20px;
   height: 100px;
   width: 62px;
 }
 
 .ice-cream-stick::before {
-  background: #9f4237;
+  background: $tertiary-dark-color;
   content: " ";
   height: 20px;
   position: absolute;
