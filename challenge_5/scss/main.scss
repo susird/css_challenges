@@ -15,16 +15,15 @@
   justify-content: center;
   position: relative;
   width: 800px;
+}
 
+.ice-cream {
+  background: $secondary-color;
+  border-radius: 100px 100px 41px 41px;
+  height: 300px;
+  width: 200px;
 
-  .ice-cream {
-    background: $secondary-color;
-    border-radius: 100px 100px 41px 41px;
-    height: 300px;
-    width: 200px;
-  }
-
-  .ice-cream-stick {
+  &-stick {
     background: $tertiary-light-color;
     border-radius: 0 0 20px 20px;
     height: 100px;
