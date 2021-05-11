@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "scripts": {
+    "start": "node-sass -o css scss"
+  }
+}
