@@ -1,0 +1,39 @@
+@import "../scss/variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  background: $main-color;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  width: 800px;
+}
+
+.ice-cream {
+  background: $secondary-color;
+  border-radius: 100px 100px 41px 41px;
+  height: 300px;
+  width: 200px;
+
+  &-stick {
+    background: $tertiary-light-color;
+    border-radius: 0 0 20px 20px;
+    height: 100px;
+    width: 62px;
+
+    &::before {
+      background: $tertiary-dark-color;
+      content: " ";
+      height: 20px;
+      display: block;
+      width: 62px;
+    }
+  }
+}
